@@ -18,7 +18,7 @@ public class LeftRepeat{
 
         // efficient
 
-        boolean visited[] = new boolean[256];
+        boolean visited[] = new boolean[256];`
         int res=-1;
         for(int i=str.length()-1;i>=0;i--){
             if(visited[str.charAt(i)]){
